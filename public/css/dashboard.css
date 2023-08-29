@@ -1,0 +1,535 @@
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+}
+.avatar-upload .avatar-edit {
+    position: absolute;
+    z-index: 1;
+    right: 89px;
+    top: 81px;
+}
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+.avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+    content: "Pilih Foto";
+    font-family: "FontAwesome";
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+.avatar-upload .avatar-preview {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-payment-wrapper {
+    width: 100%;
+    height: 290px;
+    border: 2px dashed #ddd;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1; }
+
+.image-payment, #callback-preview {
+    width: 220px;
+    height: 260px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1; }
+
+.image-up-text-head-wrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.image-up-text-head-wrapper h4 {
+    display: block;
+    position: relative;
+    font-weight: 800;
+    font-family: "Nunito Sans", -apple-system, sans-serif;
+    font-size: 1.14286rem;
+    line-height: 22px;
+    color: rgba(49, 53, 59, 0.96);
+    text-decoration: initial;
+    margin: 0;
+}
+
+.image-up-text-head-wrapper span {
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 8px;
+    display: flex;
+    padding: 2px 4px;
+    width: 38px;
+    height: 20px;
+    left: 44px;
+    top: 0;
+    background: rgb(243, 244, 245);
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 16px;
+    color: rgb(159, 166, 176);
+}
+
+.image-up-text-body {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.857143rem;
+    color: rgba(49, 53, 59, 0.68);
+}
+
+.btn-pilih-foto {
+    color: rgb(255, 86, 86);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.857143rem;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    border-radius: 8px;
+    font-weight: 700;
+    outline: none;
+    padding: 0 16px;
+    transition: background 0.8s ease 0s;
+    cursor: pointer;
+    display: inline-block;
+    background: radial-gradient(circle, transparent 1%, rgb(255, 255, 255) 1%) center center / 15000% rgb(255, 255, 255);
+    border: 1px solid rgb(255, 86, 86);
+    text-indent: initial;
+    position: relative;
+}
+
+/*placeholder tokped*/
+.css-n1y5a3 {
+    box-sizing: border-box;
+    box-shadow: rgba(49,53,59,0.12) 0 1px 6px;
+    border-radius: 8px;
+    margin-right: 12px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(79, 209, 90);
+    width: 190px;
+    height: 190px;
+}
+
+.css-kmq1n0 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    place-content: center;
+    width: inherit;
+    height: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.css-1rd7url {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/icarus/kratos/ec5ed6c9.svg);
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.css-17t9ldh {
+    padding-top: 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 20px;
+    color: rgba(49, 53, 59, 0.32);
+}
+
+.css-s027nm {
+    box-sizing: border-box;
+    box-shadow: rgba(49,53,59,0.12) 0px 1px 6px;
+    border-radius: 8px;
+    margin-right: 12px;
+    background: rgb(243, 244, 245);
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed rgb(219, 222, 226);
+}
+
+.css-kmq1n0 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    place-content: center;
+    width: inherit;
+    height: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.css-1ohaj7u {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/icarus/kratos/19bba153.svg);
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.css-1pp9iaz {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/icarus/kratos/fd9c0d4d.svg);
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.css-ypz3k2 {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/icarus/kratos/1537526c.svg);
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.css-83nb92 {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/icarus/kratos/2e33670c.svg);
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card-header .add-product-btn {
+    float: right;
+}
+
+#image-upload {
+    width: 100%;
+    margin: auto;
+}
+
+#upload-zone {
+    min-height: 150px;
+    border: 2px dashed #a7a6ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    flex: 1 1 100%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 16px;
+}
+#upload-zone:hover {
+    border: 2px dashed #17a2b8;
+}
+/*placeholder tokped*/
+
+
+/*!*Dropzone*!
+
+.form-upload .box {
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+}
+.form-upload .box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.form-upload .box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.form-upload .dropzone-wrapper {
+    border: 2px dashed #91b0b3;
+    color: #92b0b3;
+    position: relative;
+    height: 200px;
+}
+
+.form-upload .dropzone-wrapper .dropzone-desc {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    top: 60px;
+    font-size: 16px;
+}
+.form-upload .dropzone,
+.form-upload .dropzone:focus {
+    position: absolute;
+    outline: none !important;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0;
+}
+.form-upload .dropzone-wrapper:hover,
+.form-upload .dropzone-wrapper.dragover {
+    background: #ecf0f5;
+}
+.form-upload .preview-zone {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-upload .box-body img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+}
+.form-upload .preview-zone .box {
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}*/
+
+/**/
+
+
+/*! Image Uploader - v1.2.3 - 26/11/2019
+ * Copyright (c) 2019 Christian Bayer; Licensed MIT */
+
+/* Icons Font Face*/
+@font-face {
+    font-family: 'Image Uploader Icons';
+    src: url('../fonts/iu.eot');
+    src: url('../fonts/iu.eot') format('embedded-opentype'),
+    url('../fonts/iu.ttf') format('truetype'),
+    url('../fonts/iu.woff') format('woff'),
+    url('../fonts/iu.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Icons class */
+[class^="iui-"], [class*="iui-"] {
+    font-family: 'Image Uploader Icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Icon Close */
+.iui-close:before {
+    content: "\e900";
+}
+
+/* Icon Cloud Upload */
+.iui-cloud-upload:before {
+    content: "\e901";
+}
+
+/* Base style */
+.image-uploader {
+    min-height: 10rem;
+    border: 2px dashed #429bff;
+    position: relative;
+    border-radius: 9px;
+}
+
+/* Style on hover */
+.image-uploader.drag-over {
+    background-color: #f3f3f3;
+}
+
+/* Hide the file input */
+.image-uploader input[type="file"] {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* Text container */
+.image-uploader .upload-text {
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-uploader .upload-text i {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.image-uploader .upload-text span {
+    display: block;
+}
+
+/* Hide the text if there is at least one uploaded image */
+/*.image-uploader.has-files .upload-text {
+    display: none;
+}*/
+
+/* Uploaded images container */
+.image-uploader .uploaded {
+    padding: .5rem;
+    line-height: 0;
+    text-align: center;
+}
+
+.image-uploader .uploaded .uploaded-image {
+    display: inline-block;
+    width: calc(16.6666667% - 1rem);
+    padding-bottom: calc(16.6666667% - 1rem);
+    height: 0;
+    position: relative;
+    background: #f3f3f3;
+    cursor: default;
+    margin: .5rem .5rem -20px;
+}
+
+.image-uploader .uploaded .uploaded-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 9px;
+}
+
+/* Delete image button */
+.image-uploader .uploaded .uploaded-image .delete-image {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+    border-radius: 50%;
+    padding: .3rem;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-appearance: none;
+    border: none;
+}
+
+.image-uploader .uploaded .uploaded-image:hover .delete-image {
+    display: block;
+}
+
+.image-uploader .uploaded .uploaded-image .delete-image i {
+    display: block;
+    color: #fff;
+    width: 1.4rem;
+    height: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+/******************************
+*          RESPONSIVE         *
+******************************/
+
+@media screen and (max-width: 1366px) {
+    .image-uploader .uploaded .uploaded-image {
+        width: calc(20% - 1rem);
+        padding-bottom: calc(20% - 1rem);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .image-uploader .uploaded {
+        padding: .4rem;
+    }
+
+    .image-uploader .uploaded .uploaded-image {
+        width: calc(25% - .8rem);
+        padding-bottom: calc(25% - .4rem);
+        margin: .4rem;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .image-uploader .uploaded {
+        padding: .3rem;
+    }
+
+    .image-uploader .uploaded .uploaded-image {
+        width: calc(33.3333333333% - .6rem);
+        padding-bottom: calc(33.3333333333% - .3rem);
+        margin: .3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .image-uploader .uploaded {
+        padding: .2rem;
+    }
+
+    .image-uploader .uploaded .uploaded-image {
+        width: calc(50% - .4rem);
+        padding-bottom: calc(50% - .4rem);
+        margin: .2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .add-product-btn {
+        left: auto;
+        right: 0;
+    }
+}
+

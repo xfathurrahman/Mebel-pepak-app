@@ -1,0 +1,36 @@
+.img {
+    max-width: 100%;
+    alignment: center;
+    vertical-align: middle;
+}
+
+.c-thumb-d {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    height: 70px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.c-thumb {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.text-judul-product{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-width: 350px
+}
