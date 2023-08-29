@@ -153,7 +153,7 @@ body.dark .new-product-text hr {
 }
 
 body.dark .tag-img {
-    background-image: url("http://127.0.0.1:8000/storage/assets/tagbgdark.png");
+    background-image: url("http://localhost:8001/assets/tagbgdark.png");
 }
 
 body.dark .date-option {
@@ -588,7 +588,7 @@ body.dark .carousel-center:hover .owl-next i {transform : scale(2); color: var(-
 
 .tag-img {
     height: 20px;
-    background-image: url("http://localhost:8002/assets/tagbgred.png");
+    background-image: url("http://localhost:8001/assets/tagbgred.png");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
