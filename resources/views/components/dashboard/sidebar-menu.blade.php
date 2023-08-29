@@ -2,11 +2,11 @@
 <div class="main-sidebar position-fixed">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="{{url('/')}}"><img alt="image" src="{{ asset('storage/assets/mp.png') }}" class="w-20 p-1 pt-3 pb-0 mx-auto mb-0"></a>
+            <a href="{{url('/')}}"><img alt="image" src="{{ asset('assets/mp.png') }}" class="w-20 p-1 pt-3 pb-0 mx-auto mb-0"></a>
             <a href="{{url('/')}}" class="brandname">Mebel Pepak</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="{{url('/')}}"><img alt="image" src="{{ asset('storage/assets/mp.png') }}" class="p-1 pt-3"></a>
+            <a href="{{url('/')}}"><img alt="image" src="{{ asset('assets/mp.png') }}" class="p-1 pt-3"></a>
         </div>
         <div class="border-t border-gray-100 mt-2"></div>
         <ul class="sidebar-menu">

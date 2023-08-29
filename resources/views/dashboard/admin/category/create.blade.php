@@ -28,7 +28,7 @@
                                 <div class="col-sm-12 col-md-7">
                                     <input hidden type="file" name="image" id="category-image"><br />
                                     <div id="image-preview">
-                                        <img src="{{ asset("storage/assets/category-img-empty.jpg") }}" class="cate-thumb w-full" alt="category-image">
+                                        <img src="{{ asset("assets/category-img-empty.jpg") }}" class="cate-thumb w-full" alt="category-image">
                                     </div>
                                     <label class="choosefile text-white" for="category-image" id="image-label">Pilih Foto</label>
                                     <input type="hidden" name="files_selected" id="files_selected" />

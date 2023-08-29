@@ -2,10 +2,10 @@
 {{--    <div class="container p-0">
         <div class="owl-carousel owl-theme owl-wrapper carousel-ads">
             <div class="carousel-center-item">
-                <img src="{{ asset('storage/assets/banner.jpg') }}" alt="banner-ads">
+                <img src="{{ asset('assets/banner.jpg') }}" alt="banner-ads">
             </div>
             <div class="carousel-center-item">
-                <img src="{{ asset('storage/assets/banner.jpg') }}" alt="banner-ads">
+                <img src="{{ asset('assets/banner.jpg') }}" alt="banner-ads">
             </div>
         </div>
     </div>--}}

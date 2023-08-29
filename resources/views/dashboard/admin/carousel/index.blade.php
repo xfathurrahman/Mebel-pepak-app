@@ -79,7 +79,7 @@
                             @else
                                 <tr>
                                     <td colspan="6">
-                                        <img class="max-w-3xl max-h-52 mx-auto" src="{{ asset('storage/assets/carousel-empty.jpg') }}" alt="carousel kosong">
+                                        <img class="max-w-3xl max-h-52 mx-auto" src="{{ asset('assets/carousel-empty.jpg') }}" alt="carousel kosong">
                                         <p class="text-center text-dark">Anda belum mempunyai Carousel.</p>
                                     </td>
                                 </tr>

@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <a href="{{url('/')}}"><img alt="image" src="{{ asset('storage/assets/mp.png') }}" class="w-20 p-1 pt-3 pb-0 mx-auto mb-0"></a>
+            <a href="{{url('/')}}"><img alt="image" src="{{ asset('assets/mp.png') }}" class="w-20 p-1 pt-3 pb-0 mx-auto mb-0"></a>
             <a href="{{url('/')}}" class="brandname">Mebel Pepak</a>
         </x-slot>
 

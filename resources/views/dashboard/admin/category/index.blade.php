@@ -109,7 +109,7 @@
                             @else
                                 <tr>
                                     <td colspan="7">
-                                        <img class="max-w-3xl max-h-52 mx-auto" src="{{ asset('storage/assets/empty-category.jpg') }}" alt="empty-category">
+                                        <img class="max-w-3xl max-h-52 mx-auto" src="{{ asset('assets/empty-category.jpg') }}" alt="empty-category">
                                         <p class="text-center text-dark">Anda belum mempunyai Kategori.</p>
                                     </td>
                                 </tr>

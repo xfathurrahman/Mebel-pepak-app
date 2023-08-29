@@ -69,7 +69,7 @@
                             <label for="name">Bukti Pembayaran</label>
                             <div class="mx-auto rounded image-payment-wrapper">
                                 @if( empty($item -> paymentimage -> image_path))
-                                    <img class="image-payment mt-2.5 mx-auto" src="{{ asset('storage/assets/buktitfnone.jpg') }}" alt="">
+                                    <img class="image-payment mt-2.5 mx-auto" src="{{ asset('assets/buktitfnone.jpg') }}" alt="">
                                 @else
                                     <img class="image-payment mt-2.5 mx-auto" src="{{ asset('storage/payment-image').'/'.$item -> paymentimage -> image_path }}" alt="">
                                 @endif

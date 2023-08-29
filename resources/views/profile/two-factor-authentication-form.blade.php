@@ -6,7 +6,7 @@
     <x-slot name="description">
         {{ __('Dengan ini kamu bisa menambah tingkat keamanan akun loh..') }}
         <div x-show="! photoPreview">
-            <img src="{{asset('storage/assets/BannerRight.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-52 h-52" alt="">
+            <img src="{{asset('assets/BannerRight.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-52 h-52" alt="">
         </div>
     </x-slot>
 

@@ -16,7 +16,7 @@
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
         <script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
-        <link rel="shortcut icon" href="{{ asset('storage/assets/favicon.ico')  }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('assets/favicon.ico')  }}" type="image/x-icon">
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">

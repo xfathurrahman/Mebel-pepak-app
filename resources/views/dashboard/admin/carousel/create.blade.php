@@ -34,7 +34,7 @@
                                 <div class="col-sm-12 col-md-7">
                                     <input hidden type="file" name="image" id="category-image"><br />
                                     <div id="image-preview">
-                                        <img src="{{ asset("storage/assets/upload-carousel-here.jpg") }}" class="caro-thumb w-full" alt="category-image">
+                                        <img src="{{ asset("assets/upload-carousel-here.jpg") }}" class="caro-thumb w-full" alt="category-image">
                                     </div>
                                     <label class="choosefile-caro text-white" for="category-image" id="image-label">Pilih Foto</label>
                                     <input type="hidden" name="files_selected" id="files_selected" />

@@ -74,7 +74,7 @@
                         </table>
                     </div>
                     @else
-                        <img class="mr-auto mt-10 ml-auto" style="max-width: 400px" src="{{ asset('storage/assets/empty-cart.png') }}" alt="">
+                        <img class="mr-auto mt-10 ml-auto" style="max-width: 400px" src="{{ asset('assets/empty-cart.png') }}" alt="">
                         <h5 class="h-10 text-center">Anda belum memasukan barang apapun ke keranjang</h5>
                     @endif
                 </div>

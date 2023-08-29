@@ -3,7 +3,7 @@
     <div class="container px-0">
         <div class="d-flex flex-grow-1">
             <div class="navbar-brand p-0 my-auto text-white rounded-lg text-center">
-                <a href="{{url('/')}}"><img src="{{ asset('storage/assets/mp.png') }}" class="navbrand-img" alt="hn"></a>
+                <a href="{{url('/')}}"><img src="{{ asset('assets/mp.png') }}" class="navbrand-img" alt="hn"></a>
                 <span class="navbrand-text"><a href="{{ url('/') }}">MebelPepak</a></span>
             </div>
 
@@ -24,7 +24,7 @@
                         @if(Auth::check() && Auth::user()->level == 0)
                             <a href="{{ url('cart') }}" class="navright-item nav-link d-flex flex-column text-white rounded-lg flex-column text-center">
                                 <span>
-                                    <img src="{{asset('storage/assets/icon_cart/android-chrome-192x192.png')}}" alt="">
+                                    <img src="{{asset('assets/icon_cart/android-chrome-192x192.png')}}" alt="">
                                 </span>
                                 <span style="
                                 padding-right: 0.5em;

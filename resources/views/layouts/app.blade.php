@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{asset('stisla/css/components.css')}}">
     <link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
     <link rel="stylesheet" href="{{asset('css/components.css')}}">
-    <link rel="shortcut icon" href="{{ asset('storage/assets/favicon.ico')  }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/favicon.ico')  }}" type="image/x-icon">
 
     @livewireStyles
 

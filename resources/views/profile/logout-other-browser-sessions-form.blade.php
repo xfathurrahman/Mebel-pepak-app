@@ -6,7 +6,7 @@
     <x-slot name="description">
         {{ __('Atur sesi masuk akunmu dari perangkat atau browser yang berbeda.') }}
         <div x-show="! photoPreview">
-            <img src="{{asset('storage/assets/session.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-60 h-60" alt="">
+            <img src="{{asset('assets/session.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-60 h-60" alt="">
         </div>
     </x-slot>
 

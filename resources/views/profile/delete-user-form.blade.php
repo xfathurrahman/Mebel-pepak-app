@@ -6,7 +6,7 @@
     <x-slot name="description">
         {{ __('Hapus akun kamu secara permanent.') }}
         <div x-show="! photoPreview">
-            <img src="{{asset('storage/assets/delete.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-52 h-40" alt="">
+            <img src="{{asset('assets/delete.png')}}" style="display: inline-block; margin-left: auto; margin-right: auto;" class="w-52 h-40" alt="">
         </div>
     </x-slot>
 
