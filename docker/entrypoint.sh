@@ -29,8 +29,6 @@ fi
 
 echo ""
 
-npm run production
-
 # clear cache
 php artisan config:clear
 php artisan view:clear
