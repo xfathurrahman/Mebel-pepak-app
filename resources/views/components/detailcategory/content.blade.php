@@ -12,10 +12,12 @@
                     </a>
                     {{--<span class="product-new-label">{{ $cate -> name }}</span>--}}
                 </div>
-                <div class="product-content">
-                    <div class="tag-price">
-                        <div class="tag-img"></div>
-                        <div class="tag-text">{{ "Rp.".number_format($item -> price) }}</div>
+                <div class="product-content p-0">
+                    <div class="relative">
+                        <img class="h-6" src="{{ asset('assets/tagbgred.png') }}" alt="tag">
+                        <span class="px-2 font-bold text-white absolute left-0 top-0">
+                            {{ "Rp.".number_format($item->price) }}
+                        </span>
                     </div>
                     <div class="product-name text-left">{{ $item -> name }}</div>
                 </div>

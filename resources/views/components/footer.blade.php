@@ -41,7 +41,7 @@
         <!--End info-->
         <div class="row wrp-footer">
             <div class="col-lg-5 col-sm-5 col-md-5 col-xs-12 justify-center align-middle">
-                <div class="mt-4">
+                <div class="pt-12">
                     {{--// Menampilkan Kontak Admin--}}
                     <h3 style="font-weight: bold" class="item-header text-white text-center">KONTAK ADMIN</h3>
                     <div class="item-content">
@@ -79,18 +79,12 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-                <div class="wrap-footer-item-new">
-                    <div class="item-content">
-                        <div class="wrap-contact-detail text-center">
-                            <div class="image-footer-brand" aria-label="footer background">
-                                {{--// Menampilkan Maps--}}
-                                <iframe class="mr-0 ml-auto"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4110676993873!2d110.59943021744384!3d-7.530063999999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a6eba5f351b83%3A0x116d426b14d1090b!2sToko%20Meubel%20Pepak!5e0!3m2!1sid!2sid!4v1657736276349!5m2!1sid!2sid"
-                                        width="1000" height="300" style="border:0;" allowfullscreen=""
-                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
+                <div class="image-footer-brand my-5" aria-label="footer background">
+                    {{--// Menampilkan Maps--}}
+                    <iframe class="mr-0 ml-auto"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4110676993873!2d110.59943021744384!3d-7.530063999999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a6eba5f351b83%3A0x116d426b14d1090b!2sToko%20Meubel%20Pepak!5e0!3m2!1sid!2sid!4v1657736276349!5m2!1sid!2sid"
+                            width="1000" height="300" style="border:0;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
