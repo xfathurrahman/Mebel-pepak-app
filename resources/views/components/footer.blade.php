@@ -23,9 +23,7 @@
                         <i class="fas fa-search-dollar" aria-hidden="true"></i>
                         <div class="wrap-left-info">
                             <h4 class="fc-name">PEMBAYARAN</h4>
-                            <p class="fc-desc">Teliti sebelum melakukan pembayaran.
-
-                            </p>
+                            <p class="fc-desc">Teliti sebelum melakukan pembayaran.</p>
                         </div>
                     </li>
                     <li class="fc-info-item">
