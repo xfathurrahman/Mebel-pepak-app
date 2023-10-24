@@ -41,7 +41,7 @@
             <div class="col-lg-5 col-sm-5 col-md-5 col-xs-12 justify-center align-middle">
                 <div class="pt-12">
                     {{--// Menampilkan Kontak Admin--}}
-                    <h3 style="font-weight: bold" class="item-header text-white text-center">KONTAK ADMIN</h3>
+                    <h3 style="font-weight: bold" class="item-header text-white text-center">KONTAK ADMINd</h3>
                     <div class="item-content">
                         <div class="wrap-contact-detail text-center">
                             <ul class="mb-0 text-white">
