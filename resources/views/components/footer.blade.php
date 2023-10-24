@@ -29,7 +29,7 @@
                     <li class="fc-info-item">
                         <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
                         <div class="wrap-left-info">
-                            <h4 class="fc-name">PEMBELIAN</h4>
+                            <h4 class="fc-name">PEMBELIANd</h4>
                             <p class="fc-desc">Barang akan dikirim setelah pembayaran dikonfirmasi.</p>
                         </div>
                     </li>
