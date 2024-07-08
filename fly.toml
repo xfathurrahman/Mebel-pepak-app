@@ -1,0 +1,43 @@
+# fly.toml app configuration file generated for mebel-pepak on 2024-07-08T18:23:47+07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'mebel-pepak'
+primary_region = 'sin'
+console_command = 'php /var/www/html/artisan tinker'
+
+[build]
+  [build.args]
+    NODE_VERSION = '18'
+    PHP_VERSION = '8.3'
+
+[env]
+  APP_ENV = 'production'
+  LOG_CHANNEL = 'stderr'
+  LOG_LEVEL = 'info'
+  LOG_STDERR_FORMATTER = 'Monolog\Formatter\JsonFormatter'
+  SESSION_DRIVER = 'cookie'
+  SESSION_SECURE_COOKIE = 'true'
+  DB_CONNECTION = 'mysql'
+  DB_HOST = 'mysql.fathur.dev'
+  DB_PORT = '3306'
+  DB_DATABASE = 'db_mp'
+  DB_USERNAME = 'fathur'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[mounts]]
+  source = 'mp_storage'
+  destination = '/var/www/html/storage'
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
